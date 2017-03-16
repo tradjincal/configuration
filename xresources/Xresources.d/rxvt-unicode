@@ -1,20 +1,20 @@
 ! urxvt settings ---------------------------------------------------------------
 
 ! do not scroll with output
-URxvt*scrollTtyOutput: false
+urxvt*scrollTtyOutput: false
 
 ! scroll in relation to buffer
-URxvt*scrollWithBuffer: true
+urxvt*scrollWithBuffer: true
 
 ! scroll back to the bottom on keypress
-URxvt*scrollTtyKeypress: true
+urxvt*scrollTtyKeypress: true
 
 ! scrollbar style
-Urxvt*scrollstyle:  next
+!urxvt*scrollstyle:  plain
 
-! scrollbar right
-Urxvt*scrollBar_right:  true
+! remove scrollbar
+urxvt.scrollBar:  false
 
 !font
-Urxvt*font: xft:terminus:size=10
+urxvt*font: xft:xos4 Terminus:size=8
 
