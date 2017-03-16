@@ -15,8 +15,8 @@
 "Basics
 
 " set runtime path to load pathogen
-"set rtp+=~/.vim/vim-pathogen
-"execute pathogen#infect()
+set rtp+=~/.vim/bundle/vim-pathogen
+execute pathogen#infect()
 
 """General 
 
@@ -43,7 +43,8 @@ set undolevels=1000                             " maximum number of changes that
 "Color
 set t_Co=256                                    " Enable 256 colors
 syntax enable
-colorscheme pablo
+"colorscheme pablo
+colorscheme base16-materia
 
 
 ""Search
