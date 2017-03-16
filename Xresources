@@ -4,33 +4,9 @@
 !-------------------------------------------------------------------------------
 
 ! load color-specific resources for clients that have them
-#ifdef COLOR
-*customization: -color
-#endif
-
-! Xterm settings ---------------------------------------------------------------
-
-xterm*borderWidth:      0
-xterm*termName:         xterm-256color
-xterm*dynamicColors:    true
-xterm*utf8:             2
-xterm*eightBitInput:    true
-xterm*saveLines:        5000
-*xterm*jumpScroll:      true
-*xterm*toolBar:         false
-xterm*scrollBar: off
-! Inner border size
-*xterm*internalBorder: 0
-! urxvt settings ---------------------------------------------------------------
-
-! do not scroll with output
-URxvt*scrollTtyOutput: false
-
-! scroll in relation to buffer
-URxvt*scrollWithBuffer: true
-
-! scroll back to the bottom on keypress
-URxvt*scrollTtyKeypress: true
-
-!font
-Urxvt.xft:terminus:size=12
+!#ifdef COLOR
+!*customization: -color
+!#endif
+#include "themes/base16/xresources/base16-materia-256.Xresources"
+#include ".Xresources.d/xterm"
+#include ".Xresources.d/rxvt-unicode"

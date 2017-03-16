@@ -1,0 +1,51 @@
+! Xterm settings ---------------------------------------------------------------
+
+! Inner border size
+*xterm*internalBorder: 0
+
+xterm*metaSendEscape:   true
+xterm*eightBitInput:    false
+
+!xterm*backarrowKey:     false
+
+xterm*faceName:         Terminus:size=10:antialias=false
+xterm*selectToClipboard:true
+
+! cursor bliking
+xterm*cursorBlink:  true
+
+! enable bold atribute of characters
+xterm*colorBDMode:  true
+
+! recognize AINSI color escape sequences
+!xterm*colorMode:    true
+
+! recognize VT100 color escape sequences
+xterm*dynamicColors:    true
+
+! use highlight color
+xterm*highlightColorMode:   true
+
+! recommanded for scrolling
+*xterm*jumpScroll:      true
+
+! support user encoding (UTF8)
+xterm*locale:           true
+
+! enable scrollbar
+xterm*scrollBar:        false
+
+! scroll bar at right side
+i!xterm*rightScrollBar:   true
+
+!number of line save
+xterm*saveLines:        4096
+
+! disable toolbar
+*xterm*toolBar:         false
+
+! size of border
+xterm*borderWidth:      1
+
+! term name
+xterm*termName:         xterm-24
