@@ -7,6 +7,6 @@
 !#ifdef COLOR
 !*customization: -color
 !#endif
-#include "themes/base16/xresources/base16-materia-256.Xresources"
+#include ".Xresources.d/themes/base16/xresources/base16-materia-256.Xresources"
 #include ".Xresources.d/xterm"
 #include ".Xresources.d/rxvt-unicode"
