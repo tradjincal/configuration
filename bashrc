@@ -34,7 +34,8 @@ backmagenta=$(tput setab 5)
 backcyan=$(tput setab 6)
 backwhite=$(tput setab 7)
 
-
+BASE16_SHELL=$HOME/script/base16-shell/
+[ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 ###########################################################
 # Shell Options
 #

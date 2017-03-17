@@ -44,6 +44,10 @@ set undolevels=1000                             " maximum number of changes that
 set t_Co=256                                    " Enable 256 colors
 syntax enable
 "colorscheme pablo
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
 colorscheme base16-materia
 
 
