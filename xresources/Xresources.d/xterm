@@ -48,4 +48,4 @@ xterm*saveLines:        4096
 xterm*borderWidth:      1
 
 ! term name
-xterm*termName:         xterm-24
+xterm*termName:         xterm-256color
